@@ -1,4 +1,4 @@
-# 🛵 **Vespa Nation – Power BI Sales Performance Dashboard**
+# **Power BI Sales Performance Dashboard**
 
 > **🚀 Interactive & Insightful Sales Dashboard Project**  
 > Built in **Power BI Desktop** for the fictional brand **Vespa Nation**, this dashboard provides in-depth sales analysis, dynamic visuals, and sleek UX for business decision-makers.
