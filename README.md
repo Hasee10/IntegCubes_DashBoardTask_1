@@ -45,7 +45,7 @@
 
 | Image                                                                 | Description                                                                     |
 | --------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| ![Main Dashboard](https://raw.githubusercontent.com/yourusername/your-repo/main/3.png) | 🧭 **Main Sales Overview Dashboard**<br>KPIs, Revenue Trends, Customer Segments |
+| ![Main Dashboard](3.png) | 🧭 **Main Sales Overview Dashboard**<br>KPIs, Revenue Trends, Customer Segments |
 | ![Drillthrough Page](https://raw.githubusercontent.com/yourusername/your-repo/main/4.png) | 🔍 **Drillthrough Dashboard**<br>Focused metrics by customer/category           |
 | ![DAX Setup](https://raw.githubusercontent.com/yourusername/your-repo/main/1.png) | ⚙️ **DAX & Measure Setup**                                                      |
 | ![Chart Setup](https://raw.githubusercontent.com/yourusername/your-repo/main/2.png) | 🧩 **Card Configuration & Chart Setup**                                         |
