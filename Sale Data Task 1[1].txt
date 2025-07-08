@@ -1,0 +1,101 @@
+Remove unnecessary columns (IDs you won’t use in visuals).
+
+Filter out rows where Quantity = 0.
+🔹 1. Power Query Transformations
+
+Replace any null values in text columns with "Unknown" and in numeric columns with 0.
+
+Create a new column in Sales:
+
+Revenue Category:
+
+"High" if Revenue > 3000
+
+"Medium" if between 1000 and 3000
+
+"Low" otherwise
+
+Merge Sales with Customers to bring Region and Segment.
+
+Merge Customers with Regions to bring Zone into the Sales table.
+
+Create a column SalesMonth in Sales in YYYY-MM format.
+---------------------------------------------------------------------------
+🔹 2. Data Modeling
+Create relationships between the tables:
+
+Sales → Products (ProductID)
+
+Sales → Customers (CustomerID)
+
+Sales → Employees (EmployeeID)
+
+Sales → Calendar (Date)
+
+Customers → Regions (Region)
+
+Mark Calendar[Date] as a Date Table.
+
+Hide unnecessary columns (like IDs).
+--------------------------------------------------------------------------------------------
+🔹 3. Calculated Columns
+In Customers, create a Full Name column by combining FirstName and LastName.
+
+In Employees, create Employee Info = Role & " - " & Region.
+
+In Sales, create a Profit column:
+
+Assume cost = 60% of price
+
+Profit = Revenue – (Quantity × Price × 0.6)
+-----------------------------------------------------------------------------------------------------
+🔹 4. DAX Measures
+Create the following measures:
+
+Total Sales = SUM of Revenue
+
+Total Quantity = SUM of Quantity
+
+Average Sales per Customer
+
+Sales LY = SAMEPERIODLASTYEAR(Calendar[Date])
+
+YTD Sales, MTD Sales, QTD Sales
+
+% YoY Change = (This Year - LY) / LY
+
+Top Product Sales = MAX(Product Sales)
+--------------------------------------------------------------------------------------------
+
+🔹 6. Drillthrough Page
+Create a separate page to drill through by Customer.
+
+Add customer-specific sales, profit, and product visuals.
+
+Allow drillthrough from matrix or bar charts.
+---------------------------------------------------------------------------------------------------------
+🔹 7. Tooltip Page
+Create a tooltip page with:
+
+Product Name
+
+Total Sales
+
+Total Quantity
+
+Avg Price
+
+Apply this tooltip to hover on bar chart of products.
+-------------------------------------------------------------------------------------------------------------
+🔹 8. Bookmarks + Navigation
+Add a toggle button using bookmarks:
+
+View by Revenue
+
+View by Quantity
+
+Add a Reset Filter button using bookmark + selection pane.
+
+-------------------------------------------------------------------------------------------------------------------
+
+
