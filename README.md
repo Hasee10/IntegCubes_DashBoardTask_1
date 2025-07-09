@@ -45,7 +45,7 @@
 
 | Image                                                                 | Description                                                                     |
 | --------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| ![Main Dashboard](3.png) | 🧭 **Main Sales Overview Dashboard**<br>KPIs, Revenue Trends, Customer Segments |
+| ![Main Dashboard](6.png) | 🧭 **Main Sales Overview Dashboard**<br>KPIs, Revenue Trends, Customer Segments |
 | ![Drillthrough Page](4.png) | 🔍 **Drillthrough Dashboard**<br>Focused metrics by customer/category           |
 | ![Cardinalities](5.png) | 🧩 **Relationships of the tables**                                         |
 | ![DAX Setup](1.png) | ⚙️ **DAX & Measure Setup**                                                      |
