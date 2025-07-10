@@ -47,6 +47,7 @@
 | --------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
 | ![Main Dashboard](6.png) | 🧭 **Main Sales Overview Dashboard**<br>KPIs, Revenue Trends, Customer Segments |
 | ![Drillthrough Page](4.png) | 🔍 **Drillthrough Dashboard**<br>Focused metrics by customer/category           |
+| ![Second Dashboard](7.png) | 🧩 **Dashboard for the AWS Sales**                                         |
 | ![Cardinalities](5.png) | 🧩 **Relationships of the tables**                                         |
 | ![DAX Setup](1.png) | ⚙️ **DAX & Measure Setup**                                                      |
 | ![Chart Setup](2.png) | 🧩 **Card Configuration & Chart Setup**                                         |
